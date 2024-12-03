@@ -36,7 +36,7 @@
 typedef struct Markov {
     double** matrix; // 2D array for Markov Chain matrix
     int* helper;     // 1D array to track the number of updates to each row
-    int size;
+    int size;        // The size of the matrix (Markov matrix will be size x size)
 } Markov;
 
 ///////////////////////////////////////////////////////////////////////////////
